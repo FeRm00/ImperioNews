@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Imperio News</string>
+
+    <string name="txt_header"> Imperio News</string>
+    <string name="txt_sub1">VOL. CCLXVII ... No. 267</string>
+    <string name="txt_sub2">IMPERIAL NEWS, TUESDAY, OCTOBER 12, 1589</string>
+    <string name="txt_sub3">5.5 PST</string>
+    <string name="txt_left_column">Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute.
+
+                                    Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.
+
+                                    </string>
+    <string name="txt_right_column">Ahora con mas tercios por metro cuadrados, los cojones de corbata se pondran al verlo.</string>
+    <string name="txt_header_left_column">Imperie Striks Again</string>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/txt_background">
+
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context="com.example.android.imperionews.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/txt_background">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/death_star"
+            android:layout_gravity="center_vertical"
+            android:background="@color/txt_background"/>
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:gravity="center"
+            android:textSize="36sp"
+            android:paddingBottom="@dimen/txt_separation"
+            android:background="@color/txt_background"
+            android:textColor="@color/txt_color"
+            android:text="@string/txt_header"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/line_dimension"
+        android:layout_marginBottom="@dimen/line_dimension">
+
+        <TextView
+            android:id="@+id/txt_sub1"
+            style="@style/TxtSub"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="@string/txt_sub1"/>
+
+        <TextView
+            android:id="@+id/txt_sub2"
+            style="@style/TxtSub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_sub2"/>
+
+        <TextView
+            android:id="@+id/txt_sub3"
+            style="@style/TxtSub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="@string/txt_sub3"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/txt_separation"
+        android:background="@color/txt_background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            style="@style/TxtNormal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/line_dimension"
+            android:paddingRight="@dimen/txt_separation">
+
+            <TextView
+                style="@style/TxtBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_header_left_column"/>
+
+
+            <TextView
+
+                android:id="@+id/txt_left_column"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/txt_separation"
+                android:text="@string/txt_left_column"/>
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/pic_central"
+            android:src="@drawable/cabeza_imperio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:background="@color/txt_background"
+            android:paddingLeft="@dimen/line_dimension"
+            android:paddingRight="@dimen/line_dimension"/>
+
+        <TextView
+            android:id="@+id/txt_right_column"
+            style="@style/TxtNormal"
+            android:layout_marginLeft="@dimen/line_dimension"
+            android:paddingLeft="@dimen/txt_separation"
+            android:paddingTop="@dimen/txt_separation"
+            android:text="@string/txt_right_column"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>
