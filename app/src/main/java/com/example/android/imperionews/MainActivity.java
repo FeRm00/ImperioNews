@@ -6,15 +6,13 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 
-public class MainActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
-
-    //Font
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // Set the font's path
+        // Font - Set the font's path
         String fontPath = "fonts/OldeEnglish.ttf";
         // Get the customFont TextView
         TextView textView = (TextView) findViewById(R.id.txt_header);
